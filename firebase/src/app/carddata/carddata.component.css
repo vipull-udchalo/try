@@ -1,0 +1,36 @@
+#main
+{
+   display: flex; 
+   justify-content: center;
+   flex-wrap: wrap;
+}
+#card
+{
+    border: black solid;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: fit-content; 
+    margin: 15px;
+    background-color: ivory;
+    border-radius: 10px;
+   
+}
+#qua
+{
+    width: 50px; 
+    text-align: center;
+}
+#product
+{
+    width: 250px; 
+    height: 200px;
+    padding: 20px 40px;
+   
+
+}
+#quantity
+{
+    margin-bottom: 20px;
+}

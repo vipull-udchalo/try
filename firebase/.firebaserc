@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fir-6f0bc": {
+      "hosting": {
+        "firebase": [
+          "fir-6f0bc"
+        ]
+      }
+    }
+  }
+}

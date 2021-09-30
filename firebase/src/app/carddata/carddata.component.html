@@ -1,0 +1,13 @@
+<div id="main">
+    <div id="card"*ngFor="let data of products;let i =index">
+        <img id="product" src={{data.photo}} >
+        <h3>{{data.name}}</h3>
+        <h5>${{data.price}}</h5>
+       <div id="quantity">
+           <button type="button"><i class="fa fa-minus"></i></button>
+           <input type="text" id="qua" value="1">
+           <button type="button"><i class="fa fa-plus"></i></button>
+       </div>
+    </div>
+    
+</div>
